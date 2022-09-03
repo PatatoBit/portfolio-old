@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className="w-3/5 h-3/4 flex flex-col shadow-lg bg-white border-2 border-blue-900 rounded-lg">
           <div className="w-full flex top">
             <div className="flex flex-1 p-2">
-              <h1 className="text-4xl poppins">patato.live <span className="text-md text-grey">v.0.3</span></h1>
+              <h1 className="text-4xl poppins">patato.live <span className="text-base text-gray-500">v.0.3.1</span></h1>
             </div>
             <div className="flex flex-1 justify-end">
               <div className="border-blue-500 window-btn">➖</div>
