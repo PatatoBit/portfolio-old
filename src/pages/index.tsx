@@ -14,24 +14,29 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="fullflex bg-yellow-200">
-        <div className="w-3/5 h-3/4 flex flex-col shadow-lg bg-white border-2 border-blue-900 rounded-lg">
-          <div className="w-full flex top">
+        <div className="window">
+          <div className="w-full flex top bg-slate-500 shadow-sm">
+            {/* Window Header */}
             <div className="flex flex-1 p-2 items-center">
-              <h1 className="text-4xl poppins">patato.live <span className="text-base text-gray-500">v.0.3.1</span></h1>
+              <h1 className="text-4xl text-white poppins">patato.live <span className="text-base text-gray-400">v.0.3.1</span></h1>
             </div>
+
+            {/* Window buttons */}
             <div className="flex flex-1 justify-end">
-              <div className="border-blue-500 window-btn">➖</div>
-              <div className="border-green-500 window-btn">⏹️</div>
-              <div className="border-red-500 window-btn">❌</div>
+              <button className="border-blue-500 window-btn">➖</button>
+              <button className="border-green-500 window-btn">⏹️</button>
+              <button className="border-red-500 window-btn">❌</button>
             </div>
           </div>
           <div className="flex flex-row bottom">
+            {/* Nav Section */}
             <div className="section basis-1/5">
                 <h1 className="nav">Home</h1>
                 <h1 className="nav">About me</h1>
                 <h1 className="nav">Portfolio</h1>
                 <h1 className="nav">Contacts</h1>
             </div>
+            {/* Content Section */}
             <div className="section basis-4/5">
 
             </div>
