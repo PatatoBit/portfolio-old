@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fullflex {
+  @apply flex flex-col items-center justify-center w-full h-screen;
+}
+
+.nav {
+  @apply font-bold;
+}
+
+.section {
+  @apply flex flex-col h-auto bg-slate-100 m-2 p-2;
+}
+
+.section .left {
+}
+
+.top {
+  flex-basis: 5%;
+}
+
+.bottom {
+  flex-basis: 95%;
+}
+
+.nav {
+  @apply my-1 text-xl;
+}
+
+.window-btn {
+  @apply flex w-8 h-6 m-1 border-2  items-center justify-center p-4 rounded-md
+  hover:text-white;
+}
