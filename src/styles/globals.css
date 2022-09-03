@@ -9,30 +9,27 @@
 }
 
 .nav {
-  @apply font-bold;
+  @apply text-xl font-bold mx-1;
 }
 
 .section {
-  @apply flex flex-col h-auto bg-slate-100 m-2 p-2 rounded-lg;
-}
-
-.section .left {
+  @apply flex h-auto bg-slate-100 m-2 p-2 rounded-lg;
 }
 
 .top {
-  flex-basis: 5%;
+  flex-basis: 10%;
 }
 
 .bottom {
-  flex-basis: 95%;
+  flex-basis: 90%;
 }
 
 .nav {
-  @apply my-1 text-xl poppins;
+  @apply poppins;
 }
 
 .window {
-  @apply w-3/5 h-3/4 flex flex-col shadow-lg bg-white border-2 border-blue-900 rounded-lg;
+  @apply w-11/12 h-5/6 sm:w-3/5 sm:h-3/4 flex flex-col shadow-lg bg-white border-2 border-blue-900 rounded-lg;
 }
 
 .window-btn {

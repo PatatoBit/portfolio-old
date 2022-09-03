@@ -28,16 +28,16 @@ const Home: NextPage = () => {
               <button className="border-red-500 window-btn">❌</button>
             </div>
           </div>
-          <div className="flex flex-row bottom">
+          <div className="flex flex-col sm:flex-row bottom">
             {/* Nav Section */}
-            <div className="section basis-1/5">
+            <div className="section sm:flex-col top p-2">
                 <h1 className="nav">Home</h1>
                 <h1 className="nav">About me</h1>
                 <h1 className="nav">Portfolio</h1>
                 <h1 className="nav">Contacts</h1>
             </div>
             {/* Content Section */}
-            <div className="section basis-4/5">
+            <div className="section flex-col bottom">
 
             </div>
 
