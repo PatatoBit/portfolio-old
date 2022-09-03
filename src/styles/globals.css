@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,10 +28,14 @@
 }
 
 .nav {
-  @apply my-1 text-xl;
+  @apply my-1 text-xl poppins;
 }
 
 .window-btn {
   @apply flex w-8 h-6 m-1 border-2  items-center justify-center p-4 rounded-md
   hover:text-white;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
