@@ -13,7 +13,7 @@
 }
 
 .section {
-  @apply flex flex-col h-auto bg-slate-100 m-2 p-2;
+  @apply flex flex-col h-auto bg-slate-100 m-2 p-2 rounded-lg;
 }
 
 .section .left {
