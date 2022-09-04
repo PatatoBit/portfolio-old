@@ -1,6 +1,8 @@
 import Window from "../components/Window";
 import Head from "next/head";
 
+import PortfolioCard from "../components/PortfolioCard";
+
 function Portfolio() {
   return (
     <>
@@ -14,8 +16,9 @@ function Portfolio() {
       </Head>
 
       <Window>
-        <h1 className="text-center text-5xl">Portfolio</h1>
-        <p className="text-xl">Under Construction...</p>
+        <div className="w-full h-full grid grid-cols-3 grid-rows-2">
+          <PortfolioCard name="Cambridge" description="An English certificate from the Cambridge Primary and Secondary Course"/>
+        </div>
       </Window>
     </>
   );
