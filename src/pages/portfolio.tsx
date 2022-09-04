@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <Head>
-        <title>Patato</title>
+        <title>Patato | Portfolio</title>
         <meta
           name="description"
           content="Student? Web Developer? Game Developer? Learning Blender?"

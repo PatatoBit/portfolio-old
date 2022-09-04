@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <Head>
-        <title>Patato</title>
+        <title>Patato | About</title>
         <meta
           name="description"
           content="Student? Web Developer? Game Developer? Learning Blender?"

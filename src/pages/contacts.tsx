@@ -5,7 +5,7 @@ function Contacts() {
   return (
     <>
       <Head>
-        <title>Patato</title>
+        <title>Patato | Contact</title>
         <meta
           name="description"
           content="Student? Web Developer? Game Developer? Learning Blender?"
