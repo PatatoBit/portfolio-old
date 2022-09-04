@@ -9,11 +9,12 @@
 }
 
 .nav {
-  @apply text-xl font-bold mx-1;
+  @apply text-xl font-bold mx-1 rounded-lg
+  hover:text-white transition-all;
 }
 
 .section {
-  @apply flex h-auto bg-slate-100 m-2 p-2 rounded-lg;
+  @apply flex h-auto bg-slate-100 m-2 rounded-lg;
 }
 
 .top {
@@ -25,7 +26,7 @@
 }
 
 .nav {
-  @apply poppins;
+  @apply poppins flex-1 justify-center;
 }
 
 .window {
