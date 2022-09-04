@@ -17,7 +17,8 @@ function Portfolio() {
 
       <Window>
         <div className="w-full h-full grid grid-cols-3 grid-rows-2">
-          <PortfolioCard name="Cambridge" description="An English certificate from the Cambridge Primary and Secondary Course"/>
+          {/* <PortfolioCard name="Cambridge" description="An English certificate from the Cambridge Primary and Secondary Course"/> */}
+
         </div>
       </Window>
     </>

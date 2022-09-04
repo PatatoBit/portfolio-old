@@ -5,7 +5,7 @@ export default function Window(props: any) {
     <>
       <div className="fullflex bg-yellow-200">
         <div className="window">
-          <div className="w-full flex top bg-slate-500 shadow-sm">
+          <div className="w-full flex top bg-slate-500 shadow-sm cursor-move">
             {/* Window Header */}
             <div className="flex flex-1 p-2 items-center">
               <h1 className="text-4xl text-white poppins">
