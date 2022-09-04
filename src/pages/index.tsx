@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 // import { trpc } from "../utils/trpc";
 
 import Window from "../components/Window";
@@ -15,7 +16,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Window>
-        <h1 className="text-5xl text-center poppins">Hello World!</h1>
+        <Image className="rounded-3xl" src="/cheemshammer.gif" alt="doge getting bonked by hammer" width={300} height={300} />        
+        <h1 className="text-4xl text-center">Chayapat Pakham<span className="text-2xl">(Pat, Patato)</span></h1>
+        
       </Window>
     </>
   );

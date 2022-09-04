@@ -38,7 +38,7 @@ export default function Window(props: any) {
               </Link>
             </div>
             {/* Content Section */}
-            <div className="section flex-col bottom p-2">{props.children}</div>
+            <div className="section flex-col bottom p-2 roboto justify-center items-center">{props.children}</div>
           </div>
         </div>
       </div>
