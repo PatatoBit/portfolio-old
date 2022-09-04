@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Window>
-        <h1 className="text-5xl poppins">Hello World!</h1>
+        <h1 className="text-5xl text-center poppins">Hello World!</h1>
       </Window>
     </>
   );
