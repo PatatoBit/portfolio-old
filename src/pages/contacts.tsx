@@ -1,6 +1,6 @@
 import Window from "../components/Window"
 
-function Portfolio() {
+function Contacts() {
   return (
 	  <>
 		<Window>
@@ -10,4 +10,4 @@ function Portfolio() {
 	)
 }
 
-export default Portfolio
+export default Contacts

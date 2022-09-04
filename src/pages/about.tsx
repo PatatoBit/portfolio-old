@@ -1,13 +1,13 @@
 import Window from "../components/Window"
 
-function Portfolio() {
+function About() {
   return (
 	  <>
-		<Window>
+		  <Window>
 			  
 		</Window>
 	  </>
 	)
 }
 
-export default Portfolio
+export default About

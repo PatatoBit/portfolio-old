@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Window() {
+export default function Window(props:any) {
   return (
 	  <>
 	  	 <div className="fullflex bg-yellow-200">
@@ -28,6 +28,7 @@ export default function Window() {
             </div>
             {/* Content Section */}
             <div className="section flex-col bottom p-2">
+				{props.children}
 			</div>
           </div>
         </div>

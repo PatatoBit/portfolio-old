@@ -14,7 +14,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Window />
+      <Window>
+        <h1 className="text-5xl poppins">Hello World!</h1>
+      </Window>
     </>
   );
 };
